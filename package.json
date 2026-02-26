@@ -1,0 +1,19 @@
+{
+  "name": "organ-transplant-dapp",
+  "version": "1.0.0",
+  "description": "On-chain organ transplant management system",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "console": "truffle console",
+    "ganache": "ganache-cli -d -i 1337 --port 8545"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
